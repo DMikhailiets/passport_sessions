@@ -1,0 +1,21 @@
+<div style="width: 100%; height: 90vh; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h1>register</h1>
+    <form action="/register" method="POST">
+        <div style="display: flex; flex-direction: column;">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div style="margin-top: 1rem;">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div style="margin-top: 1rem;">
+                <label for="password">Passw</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+        </div>
+        <button style="width: 100%; margin-top: 1rem;"type="submit">Register</button>
+        <a href="/login" style="width: 100%; display: flex; justify-content: center;">login page</a>
+    </form>
+</div>
